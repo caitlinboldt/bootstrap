@@ -1,7 +1,7 @@
-.col-3 img {
+.col-md-3 img {
     height: 120px;
 }
-.col-3 hr {
+.col-md-3 hr {
     color: black;
     width: 100px;
 }
