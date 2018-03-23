@@ -1,12 +1,110 @@
-.col-md-3 img {
-    height: 120px;
-}
-.col-md-3 hr {
-    color: black;
-    width: 100px;
-}
-.col-md-3 a {
-    color: white;
-    text-decoration: none;
+* {
+    font-family: "Muli", sans-serif;
 }
 
+/* INDEX */
+
+/* Navbar */
+
+.navbar-brand {
+    font-size: 22px;
+}
+.navbar-nav a {
+    font-size: 18px;
+}
+/* Jumbotron */
+
+.jumbotron {
+    background-color: whitesmoke;
+    margin: 5px;
+}
+.jumbotron p {
+    font-size: 18px;
+}
+
+/* Photos */
+
+.part2 img {
+    height: 400px;
+    margin: 10px;
+    width: 100%;
+}
+.part2 img:hover {
+    border: 2px outset #777;
+}
+
+/* Footer */
+
+.footer {
+    font-size: 16px;
+    margin: 25px;
+}
+.fcopy {
+    color: cornflowerblue;
+    font-size: 16px;
+}
+
+/* ABOUT */
+
+.about-main img {
+    height: 500px;
+    margin-top: 50px;
+    width: 100%;
+}
+.about-main h2 {
+    font-weight: 600;
+    margin: 15px;
+}
+.about-main h5 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 15px;
+}
+.about-main p {
+    font-size: 16px;
+    margin: 5px;
+}
+
+/* CONTACT */
+
+.contact-main h2 {
+    margin: 50px 40px 40px 40px;
+}
+.contact-main form {
+    margin: 50px;
+}
+.contact-main input {
+    margin: 10px;
+}
+.contact-main .btn {
+    margin: 10px;
+}
+.contact-main .contactinfo {
+   margin-top: 60px;
+}
+.contact-main h5 {
+    font-weight: 700;
+}
+.contact-main h6, 
+p {
+    font-weight: 600;
+}
+#info {
+    color: darkgray;
+    font-weight: 300;
+}
+.contactinfo a {
+    font-weight: 300;
+}
+
+/* Media Queries */
+
+@media (max-width: 650px) {
+    .about-main img {
+        height: 300px;
+    }
+    .about-main h2 {
+        font-size: 22px;
+    }
+}
