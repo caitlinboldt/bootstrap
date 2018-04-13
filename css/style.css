@@ -69,10 +69,7 @@
 /* CONTACT */
 
 .contact-main h2 {
-    margin: 50px 40px 40px 40px;
-}
-.contact-main form {
-    margin: 50px;
+    margin-top: 50px;
 }
 .contact-main input {
     margin: 10px;
